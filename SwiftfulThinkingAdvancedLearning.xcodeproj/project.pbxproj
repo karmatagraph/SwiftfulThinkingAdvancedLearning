@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48ADD997286C026E00CD7A06 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADD996286C026E00CD7A06 /* AnyTransitionBootcamp.swift */; };
 		48BB88F22869C3CF00732F36 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BB88F12869C3CF00732F36 /* ViewModifierBootcamp.swift */; };
 		48BB88F42869CB6C00732F36 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BB88F32869CB6C00732F36 /* ButtonStyleBootcamp.swift */; };
 		48CAEBE92869BCFD008CBEA7 /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CAEBE82869BCFD008CBEA7 /* SwiftfulThinkingAdvancedLearningApp.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48ADD996286C026E00CD7A06 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 		48BB88F12869C3CF00732F36 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 		48BB88F32869CB6C00732F36 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		48CAEBE52869BCFD008CBEA7 /* SwiftfulThinkingAdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingAdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +58,7 @@
 				48CAEBE82869BCFD008CBEA7 /* SwiftfulThinkingAdvancedLearningApp.swift */,
 				48BB88F12869C3CF00732F36 /* ViewModifierBootcamp.swift */,
 				48BB88F32869CB6C00732F36 /* ButtonStyleBootcamp.swift */,
+				48ADD996286C026E00CD7A06 /* AnyTransitionBootcamp.swift */,
 				48CAEBEC2869BD02008CBEA7 /* Assets.xcassets */,
 				48CAEBEE2869BD02008CBEA7 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				48BB88F42869CB6C00732F36 /* ButtonStyleBootcamp.swift in Sources */,
 				48BB88F22869C3CF00732F36 /* ViewModifierBootcamp.swift in Sources */,
+				48ADD997286C026E00CD7A06 /* AnyTransitionBootcamp.swift in Sources */,
 				48CAEBE92869BCFD008CBEA7 /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
