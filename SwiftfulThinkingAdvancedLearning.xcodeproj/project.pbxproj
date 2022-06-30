@@ -17,6 +17,7 @@
 		48CAEBED2869BD02008CBEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48CAEBEC2869BD02008CBEA7 /* Assets.xcassets */; };
 		48CAEBF02869BD02008CBEA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48CAEBEF2869BD02008CBEA7 /* Preview Assets.xcassets */; };
 		48E55349286DAF9D007E7056 /* AnimatableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E55348286DAF9D007E7056 /* AnimatableDataBootcamp.swift */; };
+		48E5534B286DB9C9007E7056 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E5534A286DB9C9007E7056 /* GenericsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		48CAEBEC2869BD02008CBEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48CAEBEF2869BD02008CBEA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48E55348286DAF9D007E7056 /* AnimatableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataBootcamp.swift; sourceTree = "<group>"; };
+		48E5534A286DB9C9007E7056 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				48ADD99A286C12F300CD7A06 /* CustomShapedBootcamp.swift */,
 				48ADD99C286C1C0F00CD7A06 /* CustomCurvesBootcamp.swift */,
 				48E55348286DAF9D007E7056 /* AnimatableDataBootcamp.swift */,
+				48E5534A286DB9C9007E7056 /* GenericsBootcamp.swift */,
 				48CAEBEC2869BD02008CBEA7 /* Assets.xcassets */,
 				48CAEBEE2869BD02008CBEA7 /* Preview Content */,
 			);
@@ -160,6 +163,7 @@
 				48BB88F22869C3CF00732F36 /* ViewModifierBootcamp.swift in Sources */,
 				48ADD997286C026E00CD7A06 /* AnyTransitionBootcamp.swift in Sources */,
 				48E55349286DAF9D007E7056 /* AnimatableDataBootcamp.swift in Sources */,
+				48E5534B286DB9C9007E7056 /* GenericsBootcamp.swift in Sources */,
 				48CAEBE92869BCFD008CBEA7 /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
 				48ADD999286C0A8300CD7A06 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				48ADD99D286C1C0F00CD7A06 /* CustomCurvesBootcamp.swift in Sources */,
