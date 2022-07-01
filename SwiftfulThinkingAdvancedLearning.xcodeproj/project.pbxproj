@@ -27,6 +27,12 @@
 		48E6C875286EDC6D007299DF /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6C874286EDC6D007299DF /* CustomTabBarContainerView.swift */; };
 		48E6C877286EE0BE007299DF /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6C876286EE0BE007299DF /* TabBarItemsPreferenceKey.swift */; };
 		48E6C879286EE73F007299DF /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6C878286EE73F007299DF /* TabBarItem.swift */; };
+		48E6C87C286EFFFA007299DF /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6C87B286EFFFA007299DF /* AppNavBarView.swift */; };
+		48E6C87E286F0163007299DF /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6C87D286F0163007299DF /* CustomNavBarView.swift */; };
+		48E6C880286F04F2007299DF /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6C87F286F04F2007299DF /* CustomNavBarContainerView.swift */; };
+		48E6C882286F07D3007299DF /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6C881286F07D3007299DF /* CustomNavView.swift */; };
+		48E6C884286F0972007299DF /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6C883286F0972007299DF /* CustomNavLink.swift */; };
+		48E6C886286F0D45007299DF /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6C885286F0D45007299DF /* CustomNavBarPreferenceKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +57,12 @@
 		48E6C874286EDC6D007299DF /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		48E6C876286EE0BE007299DF /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		48E6C878286EE73F007299DF /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		48E6C87B286EFFFA007299DF /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		48E6C87D286F0163007299DF /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		48E6C87F286F04F2007299DF /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		48E6C881286F07D3007299DF /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		48E6C883286F0972007299DF /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		48E6C885286F0D45007299DF /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,7 @@
 		48CAEBE72869BCFD008CBEA7 /* SwiftfulThinkingAdvancedLearning */ = {
 			isa = PBXGroup;
 			children = (
+				48E6C87A286EFFDE007299DF /* CustomNavBar */,
 				48E6C86F286ED4A9007299DF /* CustomTabBar */,
 				48E6C86A286EBABB007299DF /* PreferenceKeyBootcamp */,
 				48CAEBE82869BCFD008CBEA7 /* SwiftfulThinkingAdvancedLearningApp.swift */,
@@ -129,6 +142,19 @@
 				48E6C878286EE73F007299DF /* TabBarItem.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		48E6C87A286EFFDE007299DF /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				48E6C87B286EFFFA007299DF /* AppNavBarView.swift */,
+				48E6C881286F07D3007299DF /* CustomNavView.swift */,
+				48E6C883286F0972007299DF /* CustomNavLink.swift */,
+				48E6C87D286F0163007299DF /* CustomNavBarView.swift */,
+				48E6C87F286F04F2007299DF /* CustomNavBarContainerView.swift */,
+				48E6C885286F0D45007299DF /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E6C87C286EFFFA007299DF /* AppNavBarView.swift in Sources */,
 				48E6C877286EE0BE007299DF /* TabBarItemsPreferenceKey.swift in Sources */,
 				48E6C871286ED4BF007299DF /* AppTabBarView.swift in Sources */,
 				48ADD99B286C12F300CD7A06 /* CustomShapedBootcamp.swift in Sources */,
@@ -209,13 +236,18 @@
 				48ADD997286C026E00CD7A06 /* AnyTransitionBootcamp.swift in Sources */,
 				48E55349286DAF9D007E7056 /* AnimatableDataBootcamp.swift in Sources */,
 				48E6C873286ED713007299DF /* CustomTabBarView.swift in Sources */,
+				48E6C882286F07D3007299DF /* CustomNavView.swift in Sources */,
+				48E6C87E286F0163007299DF /* CustomNavBarView.swift in Sources */,
 				48E5534D286DC204007E7056 /* ViewBuilderBootcamp.swift in Sources */,
 				48E5534B286DB9C9007E7056 /* GenericsBootcamp.swift in Sources */,
+				48E6C884286F0972007299DF /* CustomNavLink.swift in Sources */,
 				48E6C86C286EBADE007299DF /* GeometryPreferenceKeyBootcamp.swift in Sources */,
+				48E6C886286F0D45007299DF /* CustomNavBarPreferenceKeys.swift in Sources */,
 				48CAEBE92869BCFD008CBEA7 /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
 				48E6C879286EE73F007299DF /* TabBarItem.swift in Sources */,
 				48ADD999286C0A8300CD7A06 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				48E6C869286EB4E5007299DF /* PreferenceKeyBootcamp.swift in Sources */,
+				48E6C880286F04F2007299DF /* CustomNavBarContainerView.swift in Sources */,
 				48E6C86E286EBDE8007299DF /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				48ADD99D286C1C0F00CD7A06 /* CustomCurvesBootcamp.swift in Sources */,
 				48E6C875286EDC6D007299DF /* CustomTabBarContainerView.swift in Sources */,
